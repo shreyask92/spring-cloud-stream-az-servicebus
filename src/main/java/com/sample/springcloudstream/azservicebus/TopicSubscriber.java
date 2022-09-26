@@ -24,7 +24,7 @@ public class TopicSubscriber {
         UUID messageId = iMessage.getHeaders().getId();
 
         LOGGER.info("--------------------------------------------------------------");
-        LOGGER.info("Forecast Result: A Message({}) has been Received.",
+        LOGGER.info("A Message({}) has been Received.",
                 messageId);
 
         String message = iMessage.getPayload();
